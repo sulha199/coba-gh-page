@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy": "ngh --repo=https://github.com/sulha199/coba-gh-page.git --name=sulha199 --email=sulha199@gmail.com --no-silent --dir=dist/coba-gh-page"
   },
   "private": true,
   "dependencies": {
